@@ -589,17 +589,14 @@ label {
 }
 .label {
   margin-top: 8px;
-}
-.label-text {
   color: #8e8f99;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.6667;
   letter-spacing: 0.04em;
-  margin-bottom: 4px;
+  justify-content: flex-end;
 }
-
-.label:focus-within > .label-text + .input-box > .input-icon {
+.label:focus-within > .input-icon {
   fill: #4d5ae5;
 }
 .modal-form-input:focus-within {
@@ -624,6 +621,7 @@ label {
   width: 100%;
   height: 40px;
   padding: 8px 16px 8px 38px;
+  margin-top: 4px;
 }
 .comment-textarea {
   border: 1px solid rgba(46, 47, 66, 0.4);
