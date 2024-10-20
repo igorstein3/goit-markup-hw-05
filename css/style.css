@@ -451,11 +451,13 @@ img {
 .accent-footer {
   color: #f4f4fd;
 }
+.subscribe-container {
+  margin-left: 80px;
+}
 .subscribe-form {
   display: flex;
-  flex-direction: column;
-  margin-left: 80px;
-  width: 453px;
+  gap: 24px;
+  /* width: 453px; */
 }
 .subscribe-form button {
   padding: 8px 24px;
@@ -468,28 +470,48 @@ label {
 .submit-container {
   display: flex;
   justify-content: space-between;
-  gap: 24px;
 }
 
-.subscribe-button-box {
+.subscribe-button {
+  min-width: 165px;
+  height: 40px;
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
+.subscribe-button-icon {
+  margin-left: 16px;
+  fill: #fff;
+}
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: var(--OCEAN, #404bbf);
 }
 .useremail-input {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 2;
   letter-spacing: 0.04em;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: 1px solid #fff;
   border-radius: 4px;
-  padding: 8px 16px;
+  padding-left: 16px;
   color: #fff;
-  border: 1px solid #fff;
   border-radius: 4px;
   width: 264px;
+  height: 40px;
   outline: none;
+  background-color: transparent;
 }
 .useremail-input::placeholder {
   font-weight: 400;

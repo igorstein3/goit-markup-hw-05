@@ -492,30 +492,31 @@
               </li>
             </ul>
           </div>
-          <form class="subscribe-form">
-            <label class="social-media-text" for="useremail">Subscribe</label>
-            <div class="submit-container">
-              <input
-                class="useremail-input"
-                type="email"
-                name="useremail"
-                id="useremail"
-                placeholder="E-mail"
-              />
-
-              <button type="submit" class="transition button-box">
-                <span class="subscribe-button-box">
-                  Subscribe
-                  <svg class="social-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-icon-send"></use>
-                  </svg>
-                </span>
+          <div class="subscribe-container">
+            <p class="social-media-text">Subscribe</p>
+            <form class="subscribe-form">
+              <label class="subscribe-label" for="useremail">
+                <!-- <div class="submit-container"> -->
+                <input
+                  class="useremail-input"
+                  type="email"
+                  name="useremail"
+                  id="useremail"
+                  placeholder="E-mail"
+                />
+              </label>
+              <button type="submit" class="transition subscribe-button">
+                Subscribe
+                <svg class="subscribe-button-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-icon-send"></use>
+                </svg>
               </button>
-            </div>
-          </form>
+              <!-- </div> -->
+            </form>
+          </div>
         </div>
       </footer>
-      <div class="modal-overlay is-open">
+      <div class="modal-overlay">
         <div class="modal">
           <button type="button" class="transition close-button">
             <svg class="transition close-icon" width="8" height="8">
