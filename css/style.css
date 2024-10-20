@@ -498,6 +498,7 @@ label {
   background-color: var(--OCEAN, #404bbf);
 }
 .useremail-input {
+  background-color: transparent;
   font-weight: 400;
   font-size: 12px;
   line-height: 2;
@@ -511,7 +512,6 @@ label {
   width: 264px;
   height: 40px;
   outline: none;
-  background-color: transparent;
 }
 .useremail-input::placeholder {
   font-weight: 400;
